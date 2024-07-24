@@ -1,0 +1,70 @@
+body{
+    background-color: #000000;
+}
+.container{
+    border: 3px solid #222831;
+    background-color: #A9A9A9;
+    color: #eeeeee;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nameList{
+    color: #FF5B22;
+    text-shadow: 1px 1px #FECDA6;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.containerText{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.texto{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #FECDA6;
+}
+.botao{
+    background-color: #FF5B22;
+    color: #ffffff;
+    border: none;
+    padding: 11px;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+.lista{
+    margin: 20px;
+}
+
+.listaOrdenada{
+    list-style-type: none;
+    padding: 0;
+}
+
+.item{
+    background-color: #EEEEEE;
+    color: #000000;
+    word-wrap: break-word; 
+    position: relative;
+    border-radius: 3px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.botaoDeletar{
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   padding: 1em;
+   background-color: #FECDA6;
+   border: 0px;
+   border-radius: 5px;
+}
